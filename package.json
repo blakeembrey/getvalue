@@ -1,6 +1,6 @@
 {
   "name": "getvalue",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get a nested value from an object by path",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
