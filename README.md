@@ -15,12 +15,22 @@ npm install getvalue --save
 
 ## Usage
 
+### Arguments
+
+1. `object` (Object) The object to query
+2. `path` (Array) The path of the property to get
+3. (Optional) `defaultValue` (any) The value returned for `undefined` resolved values
+
+### Example
+
 ```js
 import { get } from 'getvalue'
 
 const obj = { a: { b: { c: 10 } } }
 
 get(obj, ['a', 'b', 'c']) //=> 10
+get(obj, ['not', 'here']) //=> undefined
+get(obj, ['or', 'here'], 1) //=> 1
 ```
 
 ## License
