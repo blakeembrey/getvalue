@@ -1,5 +1,7 @@
 # Getvalue
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/getvalue.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build status][travis-image]][travis-url]
